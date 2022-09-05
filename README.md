@@ -11,20 +11,22 @@ With it, you can search the web, images, youtubes, apps and more!
 - Lightweight
 - With more coming soon!
 - Instant math results right in your search bar
+- Spellchecking
 
 # Search Engines
   - Mojeek (default)
   - Scribd (Audiobooks, Ebooks and more)
   - Youtube (Videos)
   - Startpage (Google like results)
-  - Ecosia (Because they plant trees
+  - Ecosia (Because they plant trees)
   - Imdb (Movies)
-  - GitHub (Code)
-  - Walmart (Basically everything)
-  - Dictionary (For words, duh :)  )
+  - GitHub 
+  - Walmart 
+  - Dictionary 
   - Flickr (Images)
-  - Play Store (Android apps)
-  - App Store (IOS Apps)
+  - Google Play Store
+  - Apple App Store
+  - Lyrics
   
 #  Keywords
 To quickly change between search engines, UniversalSearch uses "!" followed by a letter to represent each engine.
@@ -37,5 +39,6 @@ To quickly change between search engines, UniversalSearch uses "!" followed by a
 - GitHub (!g)
 - Walmart (!w)
 - Flickr (!f)
-- Play Store (!p)
-- App Store (!a)
+- Google Play Store (!p)
+- Apple App Store (!a)
+- Lyrics (!l)
