@@ -9,9 +9,11 @@ With it, you can search the web, images, youtubes, apps and more!
 - Change bewtween search engines very quickly.
 - Modern UI
 - Lightweight
-- With more coming soon!
 - Instant math results right in your search bar
 - Spellchecking
+- Quickly get weather infomation
+- With more coming soon!
+
 
 # Search Engines
   - Mojeek (default)
@@ -42,3 +44,4 @@ To quickly change between search engines, UniversalSearch uses "!" followed by a
 - Google Play Store (!p)
 - Apple App Store (!a)
 - Lyrics (!l)
+- Ascess weather Info (!weather)
