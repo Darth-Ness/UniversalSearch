@@ -41,8 +41,8 @@ var search = document.getElementById("search");
 			if (search.value.indexOf('!l') != -1) {
    	       		window.location.href = "https://www.lyricsmode.com/search.php?search=" + search.value.slice(2, search.value.length);
 			}
-			if (search.value == "!weather") {
-				document.getElementById('widget').style = 'display: default';
+			if (search.value.indexOf('!weather') != -1) {
+   	       		window.location.href = "https://www.accuweather.com/en/search-locations?query=" + search.value.slice(9, search.value.length);
 			}
 			if (search.value.indexOf('!') == -1) { 
           		window.location.href = "https://www.mojeek.com/search?q=" + search.value;
