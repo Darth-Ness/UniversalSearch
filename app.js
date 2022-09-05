@@ -38,6 +38,9 @@ var search = document.getElementById("search");
 			if (search.value.indexOf('!a') != -1) {
    	       		window.location.href = "https://www.apple.com/us/search/" + search.value.slice(2, search.value.length) + "?src=serp";
 			}
+			if (search.value.indexOf('!l') != -1) {
+   	       		window.location.href = "https://www.lyricsmode.com/search.php?search=" + search.value.slice(2, search.value.length);
+			}
 			if (search.value.indexOf('!') == -1) { 
           		window.location.href = "https://www.mojeek.com/search?q=" + search.value;
 			}
