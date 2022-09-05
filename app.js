@@ -23,7 +23,7 @@ var search = document.getElementById("search");
 			if (search.value.indexOf('!g') != -1) {
    	       		window.location.href = "https://github.com/search?q=" + search.value.slice(2, search.value.length);
 			}
-			if (search.value.indexOf('!w') != -1) {
+			if (search.value.indexOf('!w') != -1 && search.value != "!weather") {
    	       		window.location.href = "https://www.walmart.com/search?q=" + search.value.slice(2, search.value.length);
 			}
 			if (search.value.indexOf('!d') != -1) {
@@ -40,6 +40,9 @@ var search = document.getElementById("search");
 			}
 			if (search.value.indexOf('!l') != -1) {
    	       		window.location.href = "https://www.lyricsmode.com/search.php?search=" + search.value.slice(2, search.value.length);
+			}
+			if (search.value == "!weather") {
+				document.getElementById('widget').style = 'display: default';
 			}
 			if (search.value.indexOf('!') == -1) { 
           		window.location.href = "https://www.mojeek.com/search?q=" + search.value;
