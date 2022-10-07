@@ -1,6 +1,6 @@
 var search = document.getElementById("search");
 	search.addEventListener("keyup",function(){
-		if (event.keyCode === 13) {
+		if (event.key == "Enter" ) {
 			if (search.value.indexOf('+') != -1 || search.value.indexOf('-') != -1|| search.value.indexOf('*') != -1 || search.value.indexOf('/') != -1) {
 				search.value = eval(search.value);
 			}
