@@ -16,32 +16,17 @@ With it, you can search the web, images, youtubes, apps and more!
 
 
 # Search Engines
-  - Mojeek (default)
-  - Scribd (Audiobooks, Ebooks and more)
-  - Youtube (Videos)
-  - Startpage (Google like results)
-  - Ecosia (Because they plant trees)
-  - Imdb (Movies)
-  - GitHub 
-  - Walmart 
-  - Dictionary 
-  - Flickr (Images)
-  - Google Play Store
-  - Apple App Store
-  - Lyrics
-  
-#  Keywords
-To quickly change between search engines, UniversalSearch uses "!" followed by a letter to represent each engine.
-- Mojeek (Nothing)
-- Scribd (!b)
-- Youtube (!y)
-- Startpage (!s)
-- Ecosia (!e)
-- Imdb (!m)
-- GitHub (!g)
-- Walmart (!w)
-- Flickr (!f)
-- Google Play Store (!p)
-- Apple App Store (!a)
-- Lyrics (!l)
-- Ascess weather Info (!weather)
+  - Mojeek (None)
+  - Scribd (!b)
+  - Youtube (!y)
+  - Startpage (!s)
+  - Ecosia (!e)
+  - Imdb (!m)
+  - GitHub (!g) 
+  - Walmart (!w)
+  - Dictionary (!d) 
+  - Flickr (!f)
+  - Google Play Store (!p)
+  - Apple App Stor (!a)
+  - Lyrics (!l)
+  - Accuweather (!weather)
