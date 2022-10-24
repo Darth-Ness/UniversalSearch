@@ -75,3 +75,10 @@ function currentTime() {
   }
   
 currentTime();
+function displayInfo() {
+    document.getElementById("popup").setAttribute('class', "");
+}
+document.getElementById("info").addEventListener('click', displayInfo);
+document.getElementById("close").addEventListener('click', function() {
+    document.getElementById('popup').setAttribute('class', 'hidden');
+});
