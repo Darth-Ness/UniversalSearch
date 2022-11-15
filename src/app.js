@@ -78,7 +78,13 @@ currentTime();
 function displayInfo() {
     document.getElementById("popup").setAttribute('class', "");
 }
+function hideUI() {
+    document.getElementById("sidebar").setAttribute('class', 'hidden');
+    document.getElementById("search").setAttribute('class', 'hidden');
+    document.getElementById("clock").setAttribute('class', 'hidden');
+}
 document.getElementById("info").addEventListener('click', displayInfo);
+document.getElementById('toggle').addEventListener('click', hideUI);
 document.getElementById("close").addEventListener('click', function() {
-    document.getElementById('popup').setAttribute('class', 'hidden');
+document.getElementById('popup').setAttribute('class', 'hidden');
 });
