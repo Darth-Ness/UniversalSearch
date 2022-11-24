@@ -72,7 +72,7 @@ function currentTime() {
   
 currentTime();
 function displayInfo() {
-    document.getElementById("popup").setAttribute('class', "");
+    document.getElementById("popup").setAttribute('class', "popup");
 }
 function hideUI() {
     document.getElementById("sidebar").setAttribute('class', 'hidden');
