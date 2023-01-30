@@ -27,6 +27,7 @@ With it, you can search the web, images, youtubes, apps and more!
   - Dictionary (!d) 
   - Flickr (!f)
   - Google Play Store (!p)
-  - Apple App Stor (!a)
+  - Apple App Store (!a)
   - Lyrics (!l)
   - Accuweather (!weather)
+  - Thingverse (!3)
