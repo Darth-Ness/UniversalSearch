@@ -44,6 +44,9 @@ var search = document.getElementById("search");
 			if (search.value.indexOf('!weather') != -1) {
    	       		window.open("https://www.accuweather.com/en/search-locations?query=" + search.value.slice(9, search.value.length), "_blank");
 			}
+			if (search.value.indexOf('!3') != -1) {
+   	       		window.open("https://www.thingiverse.com/search?q=" + search.value.slice(2, search.value.length), "_blank");
+			}
 			if (search.value.indexOf('!') == -1) { 
           		window.open("https://www.mojeek.com/search?q=" + search.value, "_blank");
 			}
